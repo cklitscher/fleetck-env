@@ -4,8 +4,8 @@ metadata:
   annotations: {}
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
-  name: fleet-ck
-  namespace: fleet-ck
+  name: fleet-ck2
+  namespace: fleet-ck2
 spec:
   replicas: 1
   selector:
@@ -22,7 +22,7 @@ spec:
         name: container-0
         ports:
         - containerPort: 80
-          name: testck
+          name: testck2
           protocol: TCP
         resources: {}
         terminationMessagePath: /dev/termination-log
